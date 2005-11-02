@@ -6,6 +6,7 @@
 %define	pdir	Class
 %define	pnam	DBI-Plugin-CountSearch
 Summary:	Class::DBI::Plugin::CountSearch - get COUNT(*) results from the database with search functionality
+Summary(pl):	Class::DBI::Plugin::CountSearch - pobieranie wyników COUNT(*) z bazy danych z mo¿liwo¶ci± wyszukiwania
 Name:		perl-Class-DBI-Plugin-CountSearch
 Version:	1.02
 Release:	0.1
@@ -24,6 +25,12 @@ This plugin adds support for COUNT(*) results directly from the
 database without having to load the records into an iterator or array.
 It provides 'count_search' and 'count_search_like' which take
 arguments exactly like Class::DBI::search().
+
+%description -l pl
+Ta wtyczka dodaje obs³ugê wyników COUNT(*) bezpo¶rednio z bazy danych
+bez potrzeby wczytywania rekordów do iteratora lub tablicy. Udostêpnia
+'count_search' i 'count_search_like' przyjmuj±ce dok³adnie takie
+argumenty, jak Class::DBI::search().
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
