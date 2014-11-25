@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Class
 %define	pnam	DBI-Plugin-CountSearch
+%include	/usr/lib/rpm/macros.perl
 Summary:	Class::DBI::Plugin::CountSearch - get COUNT(*) results from the database with search functionality
 Summary(pl.UTF-8):	Class::DBI::Plugin::CountSearch - pobieranie wyników COUNT(*) z bazy danych z możliwością wyszukiwania
 Name:		perl-Class-DBI-Plugin-CountSearch
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	f030e7d98161a4f9c05bf53a36d9eb3b
+URL:		http://search.cpan.org/dist/Class-DBI-Plugin-CountSearch/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
