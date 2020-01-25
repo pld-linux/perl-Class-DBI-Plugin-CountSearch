@@ -4,7 +4,6 @@
 
 %define	pdir	Class
 %define	pnam	DBI-Plugin-CountSearch
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::DBI::Plugin::CountSearch - get COUNT(*) results from the database with search functionality
 Summary(pl.UTF-8):	Class::DBI::Plugin::CountSearch - pobieranie wyników COUNT(*) z bazy danych z możliwością wyszukiwania
 Name:		perl-Class-DBI-Plugin-CountSearch
